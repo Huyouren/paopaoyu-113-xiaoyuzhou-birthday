@@ -1,0 +1,29 @@
+{
+  "edition": "连续滚动叙事 · 2026-11-02",
+  "nicknameConfirmation": "用户按截图确认49个全部使用，包含旧包待复核的红果果、亮晶晶。",
+  "nicknameFamilies": [
+    {"name":"围绕绚起的名字","names":["小子绚","小绚子","小绚绚","绚宝","绚宝儿","绚宝宝","绚子宝宝","乖乖绚","小绚宝","小绚宝儿","赵绚绚","绚儿","宝宝绚","诺诺绚","绚姐"]},
+    {"name":"紫色系列","names":["紫泡泡","小紫","小小紫","小紫绚","小绚紫","绚绚紫"]},
+    {"name":"食物系列","names":["小布丁","小南瓜","小辣椒","红果果"]},
+    {"name":"泡泡与小鱼系列","names":["泡泡鱼","泡泡小鱼","宝宝鱼","小只鱼","小泡泡布丁鱼"]},
+    {"name":"星光系列","names":["亮晶晶","小彩虹","冉冉新星","小新星"]},
+    {"name":"日常亲昵称呼","names":["乖乖","宝宝","宝贝","小宝","小宝贝","小乖乖","小乖","小乖宝","乖乖大人","绚绚公主","依古比古","小被子","小甜心","小天蝎","小蝎子"]}
+  ],
+  "wallSelectionNote": "按用户本轮清单逐句整理：编号跳过10，尾部合并七句；加上同轮明确要求放大的努力句，共47句。日期以原始素材为准。",
+  "wall": [
+    {"quoteId":"q-0144","featured":true},
+    {"quoteId":"q-0145"},{"quoteId":"q-0155"},{"quoteId":"q-0156"},{"quoteId":"q-0157"},{"quoteId":"q-0165"},
+    {"quoteId":"q-0168","featured":true},{"quoteId":"q-0229"},{"quoteId":"q-0182"},{"quoteId":"q-0209"},
+    {"quoteId":"q-0152"},{"quoteId":"q-0110"},{"quoteId":"q-0111"},{"quoteId":"q-0268"},{"quoteId":"q-0269"},{"quoteId":"q-0167"},{"quoteId":"q-0187"},{"quoteId":"q-0207"},{"quoteId":"q-0208"},{"quoteId":"q-0210"},
+    {"quoteId":"q-0149"},{"quoteId":"q-0151"},{"candidateId":"candidate-1233","confirmedByUser":true,"featured":true},
+    {"quoteId":"q-0273"},{"quoteId":"q-0129"},{"quoteId":"q-0250"},{"quoteId":"q-0251"},{"quoteId":"q-0246"},{"quoteId":"q-0231"},{"quoteId":"q-0247"},
+    {"quoteId":"q-0038","featured":true},{"quoteId":"q-0127"},{"quoteId":"q-0128"},{"quoteId":"q-0186"},{"quoteId":"q-0134"},{"quoteId":"q-0133"},
+    {"candidateId":"candidate-1122","confirmedByUser":true},{"quoteId":"q-0112"},{"quoteId":"q-0235","featured":true},{"quoteId":"q-0243"},
+    {"quoteId":"q-0140"},{"quoteId":"q-0141"},{"quoteId":"q-0146"},{"quoteId":"q-0272"},{"quoteId":"q-0164"},
+    {"quoteId":"q-0166","excerpt":"大步向前，你很用心的乖，这些我都知道"},{"quoteId":"q-0175"}
+  ],
+  "shortLoveIds":["q-0054","q-0001","q-0038","q-0114"],
+  "shelterQuoteIds":["q-0140","q-0268","q-0250","q-0246","q-0235"],
+  "impactQuoteIds":["q-0038","q-0121"],
+  "uiCopyNote":"章节标题、叙事引导与祝福属于新增文案；所有标为聊天原话的文字保留来源。"
+}

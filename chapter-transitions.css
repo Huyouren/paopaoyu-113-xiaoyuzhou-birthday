@@ -1,0 +1,56 @@
+/* Shared edge colors turn the eight chapters into one continuous journey. */
+:root{
+ --chapter-morning:#f7f2ff;
+ --chapter-night:#160e28;
+ --chapter-dusk:#6b5371;
+ --chapter-paper:#fbf4ed;
+ --chapter-lilac:#ebe0f4;
+ --chapter-cream:#fff8ed;
+}
+
+/* The fade occupies empty space after the names, never their reading area. */
+.nickname-universe{
+ --nightfall-height:clamp(240px,25vw,360px);
+ padding-bottom:var(--nightfall-height);
+}
+.nickname-universe:before{
+ content:'';position:absolute;inset:0 0 auto;height:180px;z-index:0;
+ background:linear-gradient(var(--chapter-morning),#f7f2ff00);
+ pointer-events:none;
+}
+.nickname-universe:after{
+ content:'';position:absolute;inset:auto 0 0;height:var(--nightfall-height);z-index:0;
+ background:linear-gradient(180deg,#eee0f700 0%,#e1caed66 12%,#c5a7d9b3 30%,#9470accf 48%,#654a7be8 66%,#342242fa 85%,var(--chapter-night) 100%);
+ pointer-events:none;
+}
+.nickname-stage,.nickname-remainder{position:relative;z-index:1}
+
+/* Both sides of the night boundary meet at exactly the same purple. */
+.galaxy-river{background:var(--chapter-night)}
+.galaxy-river:before{
+ content:'';display:block;position:absolute;inset:0;z-index:0;pointer-events:none;
+ background:radial-gradient(ellipse at 8% 13%,#61366124,transparent 35%),radial-gradient(ellipse at 92% 60%,#50335f20,transparent 38%);
+ mask-image:linear-gradient(transparent,#000 120px,#000 calc(100% - 180px),transparent);
+}
+.galaxy-river .river-canvas{
+ mask-image:linear-gradient(transparent,#000 100px,#000 calc(100% - 140px),transparent);
+}
+.shelter-chapter{
+ background:linear-gradient(var(--chapter-night),#241936 48%,#3b2b48 75%,var(--chapter-dusk));
+}
+
+/* Let the lamplit dusk become cream paper before the dark text begins. */
+.love-chapter{
+ --dawn-height:220px;
+ padding-top:calc(var(--dawn-height) + 35px);
+ background:linear-gradient(180deg,var(--chapter-dusk) 0,#8f7695 40px,#b9a2bb 90px,#e5d6e2 150px,#f8f0f6 var(--dawn-height),#fffaf2 calc(var(--dawn-height) + 220px),var(--chapter-paper) 100%);
+}
+.impact-chapter{background:linear-gradient(var(--chapter-paper),#f4ebf7 60%,var(--chapter-lilac))}
+.birthday-chapter{background:linear-gradient(var(--chapter-lilac),#e7dcf4 25%,#f3e8f3 50%,var(--chapter-cream) 75%,var(--chapter-cream))}
+.collection-section,.site-footer{background:var(--chapter-cream)}
+
+@media(max-width:700px){
+ .nickname-universe{--nightfall-height:250px}
+ .nickname-universe:before{height:130px}
+ .love-chapter{--dawn-height:185px;padding-top:215px;background:linear-gradient(180deg,var(--chapter-dusk) 0,#927998 32px,#c4aec6 80px,#ebdfe9 135px,#f8f0f6 var(--dawn-height),#fffaf2 360px,var(--chapter-paper) 100%)}
+}

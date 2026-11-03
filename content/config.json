@@ -1,0 +1,29 @@
+{
+  "siteTitle": "紫泡泡的小宇宙",
+  "recipient": "紫泡泡",
+  "birthday": "2026-11-03",
+  "asOf": "2026-11-02",
+  "heroImage": "assets/home-universe.webp",
+  "letterImage": "assets/letter-room.webp",
+  "nicknameImage": "assets/nickname-cloud.webp",
+  "birthdayLetter": {
+    "title": "今天，认真写给你",
+    "salutation": "亲爱的紫泡泡：",
+    "body": [],
+    "signature": "",
+    "date": "2026-11-03"
+  },
+  "media": {
+    "music": "assets/audio/you-dian-tian.mp3",
+    "musicTitle": "有点甜",
+    "goodnightAudio": null,
+    "photos": [
+      {
+        "src": "assets/photos/you-and-me.jpg",
+        "alt": "街边合照：两人靠在一起，男生戴眼镜并拿着相机，女生戴着发夹。",
+        "caption": "你和我"
+      }
+    ],
+    "birthdayPlan": null
+  }
+}
