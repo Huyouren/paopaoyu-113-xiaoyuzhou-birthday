@@ -1,6 +1,6 @@
 import {bindStarRiver} from './star-river-motion.js?v=motion-2';
 import {bindNicknameMotion} from './nickname-motion.js';
-import {configure,page,header,icon,fmt,date} from './story-view.js?v=copy-cleanup-1';
+import {configure,page,header,icon,fmt,date} from './story-view.js?v=birthday-wish-only-1';
 const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
 let data,config,story,storageOK=true,highlightTimer,wallVisible=false,currentStar=0,toastTimer,autoplayPending=false;
