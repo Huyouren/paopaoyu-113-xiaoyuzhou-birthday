@@ -6,13 +6,6 @@
   "heroImage": "assets/home-universe.webp",
   "letterImage": "assets/letter-room.webp",
   "nicknameImage": "assets/nickname-cloud.webp",
-  "birthdayLetter": {
-    "title": "今天，认真写给你",
-    "salutation": "亲爱的紫泡泡：",
-    "body": [],
-    "signature": "",
-    "date": "2026-11-03"
-  },
   "media": {
     "music": "assets/audio/you-dian-tian.mp3",
     "musicTitle": "有点甜",
